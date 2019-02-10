@@ -1,10 +1,10 @@
 import time
 from selenium import webdriver
 
-browser = 'firefox'
+browser = 'chrome'
 
 if browser == 'chrome':
-    driver = webdriver.Chrome(executable_path="C:/Users/Harish/PycharmProjects/Class_6/drivers/chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="C:/Users/Lenovo/PycharmProjects/Automation/drivers/chromedriver.exe")
     # driver = webdriver.Chrome()
     # driver.get("https://www.makemytrip.com/")
 elif browser == 'firefox':
@@ -17,7 +17,7 @@ elif browser == 'ie':
 else:
     print("Error - Provide appropriate browser name")
 
-location = "file:///C:/Users/Harish/Desktop/popup.html"
+location = "file:///C:/Users/Lenovo/PycharmProjects/DemoScripts_6/DemoFile/popup.html"
 driver.get(location)
 
 # Click on the "Alert" button to generate the Confirmation Alert
