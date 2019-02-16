@@ -5,6 +5,7 @@ browser = 'chrome'
 
 if browser == 'chrome':
     driver = webdriver.Chrome(executable_path="C:/Users/Lenovo/PycharmProjects/Automation/drivers/chromedriver.exe")
+
     # driver = webdriver.Chrome()
     # driver.get("https://www.makemytrip.com/")
 elif browser == 'firefox':
